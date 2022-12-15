@@ -5,8 +5,7 @@ As of 2021, pneunomia is the fourth leading cause of death globally. Studying th
 The next best thing would be to sample possible sources of infection, like showerheads. Non-tuberculosis mycobacterium (NTM) are one such pneunomia-causing pathogen known to be found on showerheads [[1]](#1). Another problem is that pathogens evolve so rapidly that there are many undocumented pathogens. Using showerhead biofilm samples, our plan was to examine samples with NTM, assemble a metagenome - a summary of what genes exist throughout all samples, match known bacteria with known bacteriophages, and infer unknown bacterial/viral functions using the metagenome.
 
 This folder contains a roadmap of the pipeline and the scripts I developed over 2022 Summer to run that pipeline. 
-
-
+In summary, we received data in the form of raw DNA text files and used various bioinformatic tools on Python to parse and trim, quality control, and assembling them into a metagenome. Afterwards, we binned parts of the genome and annotated them.
 
 ## References
 <a id="1">[1]</a> 
